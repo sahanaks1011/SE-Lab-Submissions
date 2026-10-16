@@ -16,9 +16,10 @@ SE-Lab-Submissions-PES2UG24CS425/
 ├── Lab3/
 │   └── SE_Lab_3.pdf
 ├── Lab4/
-│   ├── SE_Lab_4.pdf
-│   ├── before.mov
-│   ├── after.mov
+│   ├── SE_Lab_4/
+│   │   ├── se lab 4.pdf
+│   │   ├── before.mov
+│   │   └── after.mov
 │   └── 51_rhythm-tap_cs425/
 ├── Lab5/
 │   ├── SE_Lab_5.pdf
