@@ -8,7 +8,7 @@ Problem Statement: 51, Virtual Technical Conference Platform
 ## Repository Structure
 
 ```
-SE-Lab-Submissions-PES2UG24CS425/
+SE-Lab-Submissions/
 ├── Lab1/
 │   └── SE_Lab_1.pdf
 ├── Lab2/
@@ -24,6 +24,10 @@ SE-Lab-Submissions-PES2UG24CS425/
 ├── Lab5/
 │   ├── SE_Lab_5.pdf
 │   └── L5_50_flight_reservation_system/
+├── Lab6/
+│   └── SE_Lab_6.pdf
+├── Lab7/
+│   └── SE_Lab_7.pdf
 └── README.md
 ```
 
@@ -50,3 +54,15 @@ Original repository: https://github.com/sahanaks1011/51_rhythm-tap_cs425
 Static analysis of a flight reservation system using Pylint, Flake8 and Bandit. All reported issues and two logic bugs were fixed, raising the Pylint score from 4.00/10 to 10.00/10 and reducing the Flake8 and Bandit issues to zero. Includes the fixed code, issues.md, reflection.md, the tool reports from before and after the fixes, and a PDF of the tool outputs.
 
 Original repository: https://github.com/sahanaks1011/L5_50_flight_reservation_system
+
+## Lab 6: Code and Branch Coverage
+
+Code coverage and branch coverage testing of a recycling rewards module that calculates reward points by material, weight and bonus, checks whether a collection is accepted, and reports pickup slot status. The lab PDF is in this folder. The code, the code coverage and branch coverage test files, and screenshots of both coverage reports are in the linked repository.
+
+Code: https://github.com/sahanaks1011/L6_L7_50_recycling_rewards/tree/main/Lab%206
+
+## Lab 7: Fuzz Testing
+
+Property based fuzz testing of a recycling rewards module that parses collections, averages collected weights and calculates net reward points after a penalty. Tests use the Hypothesis library to generate random inputs and check that no function crashes and that outputs stay valid. The lab PDF is in this folder. The code and the fuzz test file are in the linked repository.
+
+Code: https://github.com/sahanaks1011/L6_L7_50_recycling_rewards/tree/main/Lab%207
